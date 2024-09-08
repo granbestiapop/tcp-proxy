@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Socket, createServer } = require('node:net');
 
 process.on('uncaughtException', (error) => {
